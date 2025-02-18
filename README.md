@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # personal_portfolio
-This is my personal portfolio website
+This is my personal portfolio website, showcasing my skills, projects, and experience as a frontend developer. It highlights my expertise in HTML, CSS, JavaScript, React, and SQL databases, along with my journey in web development. 
 =======
 # Getting Started with Create React App
 
