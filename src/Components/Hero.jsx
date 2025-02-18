@@ -29,7 +29,7 @@ const Hero = () => {
               <a href="https://www.linkedin.com/in/md-sikander-0411a8231/">
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
-              <a href="https://www.linkedin.com/in/md-sikander-0411a8231/">
+              <a href="https://github.com/Md-Sikanderr">
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </div>

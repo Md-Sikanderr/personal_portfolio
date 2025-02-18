@@ -1,5 +1,4 @@
 import React from "react";
-import img2 from "../images/img2.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircle } from "@fortawesome/free-solid-svg-icons";
 
