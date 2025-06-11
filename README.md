@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # personal_portfolio
-This is my personal portfolio website
+This is my personal portfolio website, showcasing my skills, projects, and experience as a frontend developer.
 =======
 # Getting Started with Create React App
 
