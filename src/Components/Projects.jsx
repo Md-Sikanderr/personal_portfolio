@@ -1,6 +1,7 @@
 import React from "react";
 import workimg1 from "../images/workimg1.png";
 import workimg2 from "../images/workimg2.png";
+import workimg3 from "../images/workimg3.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { faLink } from "@fortawesome/free-solid-svg-icons";
@@ -35,7 +36,7 @@ const Projects = () => {
                   data-aos="slide-left"
                 >
                   <div className="work-box2">
-                    <h1>NGO Website Development</h1>
+                    <h1>Raksha Sewa - NGO Website</h1>
                     <p>
                       Developed a responsive and user-friendly website for an
                       NGO to enhance their online presence and streamline
@@ -57,6 +58,43 @@ const Projects = () => {
                 </div>
               </div>
             </div>
+            <div className="col-md-12 mb-5">
+              <div className="row">
+                <div className="col-md-6 mb-3">
+                  <div className="workimgLink text-center">
+                    <a
+                      href="https://infohubs.netlify.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={workimg3} alt="workimg" />
+                    </a>
+                  </div>
+                </div>
+                <div className="col-md-6 d-flex flex-row justify-content-center align-items-center">
+                  <div className="work-box2">
+                    <h1>InfoHub - React App Using Public APIs</h1>
+                    <p>
+                      InfoHub is a multi-feature information platform built with
+                      React.js that brings together real-time data from multiple
+                      public APIs. It offers a centralized experience for users
+                      to explore current weather, breaking news, crypto market
+                      updates, and country information — all in one place.
+                    </p>
+                    <div className="tools">
+                      <span>React JS</span>
+                      <span>APIs</span>
+                      <span>HTML5</span>
+                      <span>CSS3</span>
+                      <span>Bootstrap</span>
+                    </div>
+                    <a href="https://infohubs.netlify.app/">
+                      <FontAwesomeIcon icon={faLink} />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className="col-md-12">
               <div className="row">
                 <div className="col-md-6 mb-3">
@@ -70,10 +108,7 @@ const Projects = () => {
                     </a>
                   </div>
                 </div>
-                <div
-                  className="col-md-6 d-flex flex-row justify-content-center align-items-center"
-                  data-aos="slide-left"
-                >
+                <div className="col-md-6 d-flex flex-row justify-content-center align-items-center">
                   <div className="work-box2">
                     <h1>Dental Clinic Website</h1>
                     <p>

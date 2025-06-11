@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Navbar, Nav, Container, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import resume from "../images/MDSIKANDER_CV.pdf";
+import resume from "../images/MdSikander_FrontendDeveloper_Resume.pdf";
 
 const NavigationBar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -66,7 +66,7 @@ const NavigationBar = () => {
             </Nav.Link>
             <Nav.Link
               href={resume}
-              download="SikanderResume"
+              download="MdSikander_FrontendDeveloper_Resume"
               className="text-white"
             >
               <Button variant="primary">Download CV</Button>
